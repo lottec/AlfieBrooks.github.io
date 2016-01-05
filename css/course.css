@@ -1,0 +1,70 @@
+/* line 1, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/course.scss */
+.accordion {
+  float: left;
+  width: 60%; }
+  /* line 4, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/course.scss */
+  .accordion h3 {
+    line-height: 36px;
+    color: #fff; }
+    /* line 7, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/course.scss */
+    .accordion h3:focus {
+      outline: none; }
+    /* line 10, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/course.scss */
+    .accordion h3 i {
+      float: right;
+      margin-top: 12px;
+      margin-right: 12px; }
+  /* line 16, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/course.scss */
+  .accordion .ui-accordion-content {
+    background: #eee;
+    padding: 1px 10px; }
+
+/* line 22, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/course.scss */
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  background-color: #1A90D8 !important;
+  border: 1px solid #d3d3d3; }
+
+/* line 27, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/course.scss */
+.ui-accordion .ui-accordion-header {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  margin: 2px 0 0 0;
+  padding: 0.5em 0.5em 0.5em 0.7em;
+  min-height: 0;
+  /* support: IE7; */
+  font-size: 100%; }
+
+/* line 38, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/course.scss */
+.sky-form input[type="text"], .sky-form textarea {
+  margin: 5px 0;
+  width: 100%; }
+
+/* line 43, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/course.scss */
+.tile-container.top .tile-container {
+  padding-right: 0;
+  margin-right: 4%; }
+  /* line 46, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/course.scss */
+  .tile-container.top .tile-container .tile.small.form {
+    float: right;
+    margin-top: 24px;
+    margin-right: 0;
+    padding: 10px; }
+    /* line 51, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/course.scss */
+    .tile-container.top .tile-container .tile.small.form form {
+      margin-bottom: 0; }
+    /* line 54, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/course.scss */
+    .tile-container.top .tile-container .tile.small.form .btn-default {
+      display: block;
+      color: #fff;
+      background: #1A90D8;
+      font-size: 18px;
+      border: none;
+      margin: 10px auto;
+      padding: 10px 30px; }
+      /* line 62, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/course.scss */
+      .tile-container.top .tile-container .tile.small.form .btn-default:hover {
+        cursor: pointer;
+        background: #34AAF2; }
+
+/*# sourceMappingURL=course.css.map */

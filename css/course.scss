@@ -1,0 +1,68 @@
+.accordion {
+    float: left;
+    width: 60%;
+    h3 {
+        line-height: 36px;
+        color: #fff;
+        &:focus {
+            outline: none;
+        }
+        i {
+            float: right;
+            margin-top: 12px;
+            margin-right: 12px;
+        }
+    }
+    .ui-accordion-content {
+        background: #eee;
+        padding: 1px 10px;
+    }
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background-color: #1A90D8 !important;
+    border: 1px solid #d3d3d3;
+}
+
+.ui-accordion .ui-accordion-header {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    margin: 2px 0 0 0;
+    padding: .5em .5em .5em .7em;
+    min-height: 0;
+    /* support: IE7; */
+    font-size: 100%;
+}
+
+.sky-form input[type="text"], .sky-form textarea {
+    margin: 5px 0;
+    width: 100%;
+}
+
+.tile-container.top .tile-container {
+    padding-right: 0;
+    margin-right: 4%;
+    .tile.small.form {
+        float: right;
+        margin-top: 24px;
+        margin-right: 0;
+        padding: 10px;
+        form {
+            margin-bottom: 0;
+        }
+        .btn-default {
+            display: block;
+            color: #fff;
+            background: #1A90D8;
+            font-size: 18px;
+            border: none;
+            margin: 10px auto;
+            padding: 10px 30px;
+            &:hover {
+                cursor: pointer;
+                background: #34AAF2;
+            }
+        }
+    }
+}
