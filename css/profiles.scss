@@ -2,7 +2,7 @@
 
 /*
 -----------------------------------------
- > Work For Us Page <
+ > Profiles Page <
 -----------------------------------------
 */
 
@@ -10,7 +10,7 @@
     width: 100% !important;
 }
 
-.polaris-wrapper.workforus {
+.polaris-wrapper.profiles {
     @include tablet {
       .title {
         width: 85%;
@@ -84,11 +84,11 @@
         }
 
         .description.small-long {
-            width: 65%;
+            width: 96%;
             float: left;
             margin-right: 1.31669%;
             margin-left: -1px;
-            padding: 30px 30px 30px 8%;
+            padding: 30px 30px 30px 15%;
             border: none;
             background-color: #a51d4d;
             color: #fff;
@@ -102,6 +102,8 @@
             }
             p {
                 margin: 35px 0 10px;
+                font-size: 18px;
+                line-height: 22px;
             }
         }
 
