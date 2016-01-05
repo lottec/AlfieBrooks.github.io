@@ -1,8 +1,6 @@
 - title: Home
   url: /
-- title: Courses
-  url: /courses/
-# - title: Open Source
-#   url: /opensource/
+- title: Profiles
+  url: /profiles/
 - title: News
   url: /news/

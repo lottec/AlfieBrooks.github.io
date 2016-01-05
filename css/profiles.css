@@ -19,9 +19,9 @@
 
 /* line 19, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
 .polaris-wrapper.profiles .hero-wrapper {
-  background-image: url(/images/assets/workforus.jpg);
+  background-image: url(/images/assets/womenintech.png);
   background-size: cover;
-  background-position: 0 -345px;
+  background-position: 0 -215px;
   background-repeat: no-repeat; }
   @media (max-width: 768px) {
     /* line 19, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
@@ -235,108 +235,76 @@
 
 /* line 228, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
 .polaris-wrapper.profiles .tile-container.middle {
-  padding: 0;
+  padding: 48px 0 0;
   margin-top: -30px; }
   /* line 231, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
-  .polaris-wrapper.profiles .tile-container.middle .quote {
-    border: none;
-    text-align: center;
-    margin: 100px auto 70px; }
-    @media (max-width: 768px) {
-      /* line 231, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
-      .polaris-wrapper.profiles .tile-container.middle .quote {
-        width: 80%; } }
-    /* line 238, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
-    .polaris-wrapper.profiles .tile-container.middle .quote .quote_marks {
-      font-size: 70px;
-      color: #ed0677; }
-      @media (max-width: 768px) {
-        /* line 238, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
-        .polaris-wrapper.profiles .tile-container.middle .quote .quote_marks {
-          font-size: 50px;
-          line-height: 30px; } }
-    /* line 246, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
-    .polaris-wrapper.profiles .tile-container.middle .quote h2 {
-      display: inline; }
-      @media (max-width: 992px) {
-        /* line 246, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
-        .polaris-wrapper.profiles .tile-container.middle .quote h2 {
-          font-size: 32px;
-          line-height: 45px; } }
-  /* line 254, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
-  .polaris-wrapper.profiles .tile-container.middle .text {
-    background-color: #2b93d1;
-    padding: 35px 12.5%;
-    margin-top: 40px;
-    color: #fff; }
-    /* line 259, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
-    .polaris-wrapper.profiles .tile-container.middle .text p {
-      margin: 0; }
+  .polaris-wrapper.profiles .tile-container.middle .tile-container {
+    margin-top: 0; }
 
-/* line 264, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
+/* line 235, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
 .polaris-wrapper.profiles .tile-container.bottom {
   margin-top: 40px; }
-  /* line 266, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
+  /* line 237, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
   .polaris-wrapper.profiles .tile-container.bottom .title {
     width: 75%; }
-  /* line 269, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
+  /* line 240, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
   .polaris-wrapper.profiles .tile-container.bottom .row {
     margin: 25px 0;
     width: 100%;
     float: left; }
-    /* line 273, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
+    /* line 244, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
     .polaris-wrapper.profiles .tile-container.bottom .row .description.small-long {
       float: left;
       width: 66%;
       padding: 0 20px;
       margin-bottom: 22px; }
       @media (max-width: 768px) {
-        /* line 273, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
+        /* line 244, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
         .polaris-wrapper.profiles .tile-container.bottom .row .description.small-long {
           width: 75%;
           margin: 0 auto 22px;
           display: table;
           float: none; } }
       @media (max-width: 480px) {
-        /* line 273, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
+        /* line 244, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
         .polaris-wrapper.profiles .tile-container.bottom .row .description.small-long {
           width: 100%; } }
-      /* line 287, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
+      /* line 258, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
       .polaris-wrapper.profiles .tile-container.bottom .row .description.small-long h2 {
         margin-top: 0; }
-    /* line 291, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
+    /* line 262, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
     .polaris-wrapper.profiles .tile-container.bottom .row.one h2 {
       color: #a6ce39; }
-    /* line 294, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
+    /* line 265, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
     .polaris-wrapper.profiles .tile-container.bottom .row.one hr {
       border-color: #a6ce39; }
-    /* line 297, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
+    /* line 268, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
     .polaris-wrapper.profiles .tile-container.bottom .row.two h2 {
       color: #ed0677; }
-    /* line 300, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
+    /* line 271, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
     .polaris-wrapper.profiles .tile-container.bottom .row.two hr {
       border-color: #ed0677; }
-    /* line 303, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
+    /* line 274, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
     .polaris-wrapper.profiles .tile-container.bottom .row.three h2 {
       color: #a51d4d; }
-    /* line 306, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
+    /* line 277, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
     .polaris-wrapper.profiles .tile-container.bottom .row.three hr {
       border-color: #a51d4d; }
-    /* line 309, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
+    /* line 280, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
     .polaris-wrapper.profiles .tile-container.bottom .row.four h2 {
       color: #2b93d1; }
-    /* line 312, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
+    /* line 283, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
     .polaris-wrapper.profiles .tile-container.bottom .row.four hr {
       border-color: #2b93d1; }
     @media (max-width: 768px) {
-      /* line 315, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
+      /* line 286, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
       .polaris-wrapper.profiles .tile-container.bottom .row .tile {
         width: 75%;
         padding: 0;
         margin: 0 auto 22px;
         display: table;
         float: none; } }
-    /* line 324, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
+    /* line 295, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/profiles.scss */
     .polaris-wrapper.profiles .tile-container.bottom .row .tile .tile-link:hover {
       cursor: default; }
 
