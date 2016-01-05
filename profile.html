@@ -1,0 +1,111 @@
+---
+title: Work For Us
+---
+{% include head.html %}
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sky Developers</title>
+    </head>
+
+    <body>
+        <div class="polaris-wrapper profile">
+            
+            <section class="tile-container top">
+                <div class="description small-long">
+                    <h2>Lucy</h2>
+                    <hr>
+                    <p>Lucy reaches 100% of her cerebral capacity and disappears within the spacetime continuum, where she explains that everything is connected and existence is only proven through time.</p>
+                </div>
+            </section>
+
+            <section class="profile-container top">
+                <img class="profile-image" src="http://www.asset1.net/tv/pictures/266/394/movie/lucy-2014/Lucy-AKA-1.jpg">
+                <div class="profile-info-container">
+                    <table class="profile-info">
+                        <tr>
+                            <td>Jam</td>
+                            <td>Peanut butter</td>
+                        </tr>
+                        <tr>
+                            <td>Jam</td>
+                            <td>Peanut butter</td>
+                        </tr>
+                        <tr>
+                            <td>Jam</td>
+                            <td>Peanut butter</td>
+                        </tr>
+                        <tr>
+                            <td>Jam</td>
+                            <td>Peanut butter</td>
+                        </tr>
+                        <tr>
+                            <td>Jam</td>
+                            <td>Peanut butter</td>
+                        </tr>
+                        <tr>
+                            <td>Jam</td>
+                            <td>Peanut butter</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+
+            <section class="tile-container bottom">
+                <div class="row one" id="row-1">
+                    <div class="description small-long">
+                        <h2>Question 1</h2>
+                        <hr>
+                        <p>Sky Go, Sky Store and NOW TV are internet TV services where you can watch the latest movies, exclusive live sports and must-see TV shows; they’re available on loads of devices, like your laptop, tablet, smartphone, games console and more. This is now... Sky is continually innovating, join us and find out what we’re working on for the future.</p>
+                    </div>
+                </div>
+                <div class="row two">
+                    <div class="description small-long">
+                        <h2>Question 2</h2>
+                        <hr>
+                        <p>Through the adoption of Lean, Agile and XP principles we follow a quality driven approach to delivery with teams that feel energised and empowered to make the right decisions and to tackle problems that haven’t before been tackled.</p>
+                    </div>
+                </div>
+                <div class="row three" id="row-3">
+                    <div class="description small-long">
+                        <h2>Question 3</h2>
+                        <hr>
+                        <p>NOW TV has recently won both the DTG and MongoDB 2015 Innovation Awards; Sky Go was voted App of the Year for two consecutive years, as well as Digital Media Service of the Year.</p>
+                    </div>
+                </div>
+                <div class="row four">
+                    <div class="description small-long">
+                        <h2>Question 4</h2>
+                        <hr>
+                        <p>It’s our people that make Sky Europe’s leading entertainment company. That’s why we work hard to be an inclusive employer, so everyone at Sky can be their best.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function(){
+
+                if(window.outerWidth <= 768) {
+                    $('#tileImg-1').appendTo('#row-1');
+                    $('#tileImg-2').appendTo('#row-3');
+                }
+
+                $(window).on("resize", function(event) {
+                    if(window.outerWidth <= 768) {
+                        $('#tileImg-1').appendTo('#row-1');
+                        $('#tileImg-2').appendTo('#row-3');
+                    } else {
+                        $('#tileImg-1').prependTo('#row-1');
+                        $('#tileImg-2').prependTo('#row-3');
+                    }
+                });
+            });
+        </script>
+        {% include footer.html %}
+    </body>
+</html>
