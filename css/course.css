@@ -1,0 +1,30 @@
+.accordion {
+  float: left;
+  width: 60%;
+}
+
+.tile.small.form {
+  margin-top: 24px;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  background-color: #1A90D8 !important;
+  border: 1px solid #d3d3d3;
+}
+
+h3 {
+  line-height: 36px;
+}
+
+.ui-accordion .ui-accordion-header {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  margin: 2px 0 0 0;
+  padding: .5em .5em .5em .7em;
+  min-height: 0;
+  /* support: IE7; */
+  font-size: 100%;
+}
