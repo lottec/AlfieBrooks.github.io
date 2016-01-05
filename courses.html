@@ -1,0 +1,144 @@
+---
+title: Work For Us
+---
+{% include head.html %}
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sky Developers</title>
+    </head>
+
+    <body>
+        <div class="polaris-wrapper workforus">
+            <section class="hero-container">
+                <div class="hero-wrapper"></div>
+            </section>
+            <section class="tile-container top">
+                <div class="tile medium apply" id="tile-1">
+                    <div class="tile-inner">
+                        <a class="tile-link">
+                            <div class="tile-bg"></div>
+                            <div class="tile-media">
+                                <span class="mega-octicon octicon-checklist"></span>
+                            </div>
+                            <div class="tile-content">
+                                <div class="tile-content-inner">
+                                    <h2 class="tile-title">Course 1</h2>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <section>
+                        <div class="shine top"></div>
+                        <div class="shine bottom"></div>
+                    </section>
+                </div>
+                <div class="panel" id="panel1">
+                    <div class="panel-inner">
+                        <div class="panel-header">
+                            <a class="panel-close" id="tile_1-close"><span class="skycon--close"></span>Close</a>
+                        </div>
+                        <div class="panel-content">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tile medium apply" id="tile-2">
+                    <div class="tile-inner">
+                        <a class="tile-link">
+                            <div class="tile-bg"></div>
+                            <div class="tile-media">
+                                <span class="mega-octicon octicon-checklist"></span>
+                            </div>
+                            <div class="tile-content">
+                                <div class="tile-content-inner">
+                                    <h2 class="tile-title">Course 1</h2>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <section>
+                        <div class="shine top"></div>
+                        <div class="shine bottom"></div>
+                    </section>
+                </div>
+                <div class="panel" id="panel2">
+                    <div class="panel-inner">
+                        <div class="panel-header">
+                            <a class="panel-close" id="tile_2-close"><span class="skycon--close"></span>Close</a>
+                        </div>
+                        <div class="panel-content">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="tile-container middle">
+
+            </section>
+
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function(){
+
+                if(window.outerWidth <= 768) {
+                    $('#tileImg-1').appendTo('#row-1');
+                    $('#tileImg-2').appendTo('#row-3');
+                }
+
+                $(window).on("resize", function(event) {
+                    if(window.outerWidth <= 768) {
+                        $('#tileImg-1').appendTo('#row-1');
+                        $('#tileImg-2').appendTo('#row-3');
+                    } else {
+                        $('#tileImg-1').prependTo('#row-1');
+                        $('#tileImg-2').prependTo('#row-3');
+                    }
+                });
+
+                $('#tile-1').click(function() {
+                    $(".mobile-menu").hide();
+
+                    $(this).toggleClass('selected');
+                    id = this.id;
+                    id = id.split('-');
+                    id = "#panel" + id[1];
+                    $(id).addClass('open');
+                    $('body').css('overflow','hidden');
+                    $("html, body").animate({ scrollTop: $(id).offset().top }, 500);
+                });
+
+                $('#tile-2').click(function() {
+                    $(".mobile-menu").hide();
+
+                    $(this).toggleClass('selected');
+                    id = this.id;
+                    id = id.split('-');
+                    id = "#panel" + id[1];
+                    $(id).addClass('open');
+                    $('body').css('overflow','hidden');
+                    $("html, body").animate({ scrollTop: $(id).offset().top }, 500);
+                });
+
+                $('.panel-close').click(function(){
+                    $(this).toggleClass('selected');
+                    id = this.id;
+                    //FIX THIS TO BE NICER
+                    idTemp = id.split('-');
+                    id = idTemp[0].split('_');
+                    $(idTemp[0]).toggleClass('selected');
+                    panel = "#panel" + id[1];
+                    $(panel).removeClass('open');
+                    $('body').css('overflow','scroll');
+                });
+            });
+        </script>
+        {% include footer.html %}
+    </body>
+</html>

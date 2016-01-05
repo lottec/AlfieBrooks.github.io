@@ -1,0 +1,92 @@
+/*
+-----------------------------------------
+ > Mixins <
+-----------------------------------------
+*/
+/*
+-----------------------------------------
+ > Index Page <
+-----------------------------------------
+*/
+.polaris-wrapper {
+  position: relative;
+  box-sizing: border-box;
+  padding-bottom: 4vw;
+  overflow: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.polaris-wrapper * {
+  box-sizing: inherit;
+}
+
+.hero-container {
+  position: relative;
+  padding-bottom: 32.5%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-container .hero-wrapper {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-container .hero-wrapper .hero-vid {
+  margin-top: -185px;
+}
+
+@media (max-width: 768px) {
+  .hero-container .hero-wrapper .hero-vid {
+    display: none !important;
+  }
+}
+
+.hero-container .hero-wrapper .hero-banner {
+  margin-top: -25px;
+  width: 100%;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hero-container .hero-wrapper .hero-banner {
+    display: block !important;
+  }
+}
+
+.tile-container .tile.small-long {
+  width: 64%;
+  float: left;
+  margin-right: 1.31669%;
+  margin-left: 1.31669%;
+  padding: 15px 30px;
+  border: none;
+  background-color: #a51d4d;
+  text-align: right;
+  color: #fff;
+}
+
+.tile-container .tile.small-long .tile-content {
+  padding-bottom: 0;
+}
+
+.tile-container .tile.small-long p {
+  padding-bottom: 10px;
+}
+
+.tile-container .tile.small-long a {
+  padding-bottom: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.tile-container .tile.small-long a:hover {
+  text-decoration: underline;
+}

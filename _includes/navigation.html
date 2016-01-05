@@ -1,0 +1,42 @@
+<section class="module clearfix tabs-container page-nav whole-page" data-function="tabs" id='main-nav-tabs'>
+      <a class="dev-logo" href="/">
+        <img src="/images/assets/skyDevSpectrum.png" height="50" class="dev-logo-image"/>
+      </a>
+  <ul id="main-menu" class="tabs clearfix main-menu" role="tablist">
+
+    {% for p in site.data.navigation %}
+       {% if p.title %}
+           {% if p.url == page.url%}
+             <li id="{{p.title}}" class="tab selected" role="tab">
+           {% else %}
+             <li id="{{p.title}}" class="tab" role="tab">
+           {% endif %}
+             <a href="{{ p.url | prepend: site.baseurl }}" class="ellipsis internal-link"><span>{{ p.title }}</span></a>
+           </li>
+       {% endif %}
+     {% endfor %}
+  </ul>
+
+  <div class="mobile-menu">
+    <ul>
+      {% for p in site.data.navigation %}
+         {% if p.title %}
+          <a href="{{ p.url | prepend: site.baseurl }}" class="ellipsis internal-link"><li><span>{{ p.title }}</span></li></a>
+         {% endif %}
+       {% endfor %}
+    </ul>
+  </div>
+
+  <button class="hamburger"><span class="mega-octicon octicon-three-bars"></span></button>
+</section>
+
+<script type="text/javascript">
+  if(window.location.pathname == "/internalHtml/") {
+      document.getElementById('Blog').classList.add('selected');
+  }
+
+  $(".hamburger").click(function() {
+    $(".mobile-menu").slideToggle( "slow", function() {
+    });
+  });
+</script>

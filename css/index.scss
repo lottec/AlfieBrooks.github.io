@@ -1,0 +1,82 @@
+@import 'mixin.scss';
+
+/*
+-----------------------------------------
+ > Index Page <
+-----------------------------------------
+*/
+
+.polaris-wrapper {
+    position: relative;
+    box-sizing: border-box;
+    padding-bottom: 4vw;
+    overflow: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.polaris-wrapper * {
+    box-sizing: inherit;
+}
+
+.hero-container {
+    position: relative;
+    padding-bottom: 32.5%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    .hero-wrapper {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        overflow: hidden;
+        .hero-vid {
+            margin-top: -185px;
+
+            @include tablet {
+              display: none !important;
+            }
+        }
+        .hero-banner {
+          margin-top: -25px;
+          width: 100%;
+          display: none;
+
+          @include tablet {
+              display: block !important;
+          }
+
+        }
+    }
+}
+
+.tile-container {
+    .tile.small-long {
+        width: 64%;
+        float: left;
+        margin-right: 1.31669%;
+        margin-left: 1.31669%;
+        padding: 15px 30px;
+        border: none;
+        background-color: #a51d4d;
+        text-align: right;
+        color: #fff;
+        .tile-content {
+            padding-bottom: 0;
+        }
+        p {
+            padding-bottom: 10px;
+        }
+        a {
+            padding-bottom: 12px;
+            color: #fff;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
