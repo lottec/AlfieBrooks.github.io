@@ -38,6 +38,24 @@ a {
  > Nav Bar <
 -----------------------------------------
 */
+.tabs-container.page-nav .tabs>.tab:hover .dropdown-menu a {
+    
+}
+
+
+.tabs-container.page-nav .tabs>.tab {
+    &:hover .dropdown-menu a {
+        border-bottom: none;
+    }
+    .dropdown-menu {
+        padding: 0;
+        a {
+            line-height: 35px;
+            text-align: center;
+            border-bottom: none;
+        }
+    }
+}
 
 .main-menu {
   @include tablet {
