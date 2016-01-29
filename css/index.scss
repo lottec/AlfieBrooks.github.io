@@ -84,3 +84,40 @@
 .tile-container.text {
     margin-top: 30px;
 }
+
+.tile-container.middle {
+        padding: 0;
+        margin-top: -30px;
+        .quote {
+            border: none;
+            text-align: center;
+            margin: 100px auto 70px;
+            @include tablet {
+                width: 80%;
+            }
+            .quote_marks {
+                font-size: 70px;
+                color: #ed0677;
+                @include tablet {
+                    font-size: 50px;
+                    line-height: 30px;
+                }
+            }
+            h2 {
+                display: inline;
+                @media (max-width: 992px) {
+                    font-size: 32px;
+                    line-height: 45px;
+                }
+            }
+        }
+        .text {
+            background-color: #0076be;
+            padding: 35px 12.5%;
+            margin-top: 40px;
+            color: #fff;
+            p {
+              margin: 0;
+            }
+        }
+    }
