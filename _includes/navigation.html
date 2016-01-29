@@ -9,9 +9,9 @@
         <li id="Courses" class="tab" role="tab">
             <a href="/courses" class="ellipsis internal-link" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span>Courses</span> <span class="caret"></span></a>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                <li><a href="#">Course 1</a></li>
-                <li><a href="#">Course 2</a></li>
-                <li><a href="#">Course 3</a></li>
+                <li><a href="/courses">Course 1</a></li>
+                <li><a href="/courses">Course 2</a></li>
+                <li><a href="/courses">Course 3</a></li>
             </ul>
         </li>
         <li id="FAQ" class="tab" role="tab">
@@ -37,10 +37,6 @@
 </section>
 
 <script type="text/javascript">
-    if (window.location.pathname == "/internalHtml/") {
-        document.getElementById('Blog').classList.add('selected');
-    }
-
     $(".hamburger").click(function () {
         $(".mobile-menu").slideToggle("slow", function () {});
     });
