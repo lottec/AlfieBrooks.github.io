@@ -9,6 +9,7 @@
 body {
     margin: 0;
     padding: 0;
+    font: 18px/20px SkyTextRegular,Helvetica,Arial,sans-serif;
 }
 
 .container.footer {
@@ -38,10 +39,6 @@ a {
  > Nav Bar <
 -----------------------------------------
 */
-.tabs-container.page-nav .tabs>.tab:hover .dropdown-menu a {
-    
-}
-
 
 .tabs-container.page-nav .tabs>.tab {
     &:hover .dropdown-menu a {
