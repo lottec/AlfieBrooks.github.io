@@ -4,16 +4,14 @@ title: Work For Us
 {% include head.html %}
 
 <script src='https://www.google.com/recaptcha/api.js'></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Sky Developers</title>
     </head>
 
-    <body data-spy="scroll" data-target=".faq-question-list" data-offset="0">
+    <body data-spy="scroll" data-target="#faq-navigation">
         <div class="polaris-wrapper faq">
             
             <section class="tile-container top">
@@ -25,21 +23,23 @@ title: Work For Us
 
             <section class="profile-container top">
                 <div class="profile-info-container">
-                    <nav role="navigation" id="faq-navigation"><ul class="faq-question-list nav nav-stacked">
-                        <li><a href="#why-only-women">Why is this course for women only?</a></li>
-                        <li><a href="#exists-for-men">Is there an equivalent for men?</a></li>
-                        <li><a href="#help-as-a-man">I’m a man and interested in helping encourage more women into technology roles - how can I get involved?</a></li>
-                        <li><a href="#help-as-a-woman">I’m a woman already in a technology role and I’d like to contribute - how can I get involved?</a></li>
-                        <li><a href="#what-will-i-learn">What will I learn on the course?</a></li>
-                        <li><a href="#cost">How much will it cost me?</a></li>
-                        <li><a href="#expenses">Can Sky help cover expenses?</a></li>
-                        <li><a href="#certificate-qualification">Will I get a certificate/qualification at the end of the course?</a></li>
-                        <li><a href="#job-offer">Will I get a job at the end of the course?</a></li>
-                        <li><a href="#childcare">Can Sky help with childcare while I’m on the course?</a></li>
-                        <li><a href="#equipment">Will I need my own computer to do the course?</a></li>
-                        <li><a href="#remote-studying">Can I study remotely/part time?</a></li>
-                        <li><a href="#previous-experience">Do I need any previous experience or qualifications in order to get a place on the course?</a></li>
-                    </ul></nav>
+                    <div role="navigation" id="faq-navigation">
+                        <ul class="faq-question-list nav nav-stacked" role="tablist">
+                            <li><a href="#why-only-women">Why is this course for women only?</a></li>
+                            <li><a href="#exists-for-men">Is there an equivalent for men?</a></li>
+                            <li><a href="#help-as-a-man">I’m a man and interested in helping encourage more women into technology roles - how can I get involved?</a></li>
+                            <li><a href="#help-as-a-woman">I’m a woman already in a technology role and I’d like to contribute - how can I get involved?</a></li>
+                            <li><a href="#what-will-i-learn">What will I learn on the course?</a></li>
+                            <li><a href="#cost">How much will it cost me?</a></li>
+                            <li><a href="#expenses">Can Sky help cover expenses?</a></li>
+                            <li><a href="#certificate-qualification">Will I get a certificate/qualification at the end of the course?</a></li>
+                            <li><a href="#job-offer">Will I get a job at the end of the course?</a></li>
+                            <li><a href="#childcare">Can Sky help with childcare while I’m on the course?</a></li>
+                            <li><a href="#equipment">Will I need my own computer to do the course?</a></li>
+                            <li><a href="#remote-studying">Can I study remotely/part time?</a></li>
+                            <li><a href="#previous-experience">Do I need any previous experience or qualifications in order to get a place on the course?</a></li>
+                        </ul>
+                    </div>
                 </div>
             </section>
 
@@ -138,25 +138,6 @@ title: Work For Us
                 </div>
             </section>
         </div>
-        <script type="text/javascript">
-            $(document).ready(function(){
-
-                if(window.outerWidth <= 768) {
-                    $('#tileImg-1').appendTo('#row-1');
-                    $('#tileImg-2').appendTo('#row-3');
-                }
-
-                $(window).on("resize", function(event) {
-                    if(window.outerWidth <= 768) {
-                        $('#tileImg-1').appendTo('#row-1');
-                        $('#tileImg-2').appendTo('#row-3');
-                    } else {
-                        $('#tileImg-1').prependTo('#row-1');
-                        $('#tileImg-2').prependTo('#row-3');
-                    }
-                });
-            });
-        </script>
         {% include footer.html %}
     </body>
 </html>

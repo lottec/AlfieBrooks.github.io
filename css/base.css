@@ -39,30 +39,30 @@ a {
  > Nav Bar <
 -----------------------------------------
 */
-/* line 44, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+/* line 43, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
 .tabs-container.page-nav .tabs > .tab:hover .dropdown-menu a {
   border-bottom: none; }
 
-/* line 47, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+/* line 46, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
 .tabs-container.page-nav .tabs > .tab .dropdown-menu {
   padding: 0; }
-  /* line 49, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+  /* line 48, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
   .tabs-container.page-nav .tabs > .tab .dropdown-menu a {
     line-height: 35px;
     text-align: center;
     border-bottom: none; }
 
 @media (max-width: 768px) {
-  /* line 57, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+  /* line 56, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
   .main-menu {
     display: none; } }
 
 @media (max-width: 768px) {
-  /* line 64, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+  /* line 63, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
   .hamburger {
     display: block !important; } }
 
-/* line 69, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+/* line 68, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
 .hamburger {
   font-family: SkyTextRegular;
   display: none;
@@ -80,7 +80,7 @@ a {
   z-index: 1;
   margin-top: 20px; }
 
-/* line 87, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+/* line 86, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
 .mobile-menu {
   display: none;
   z-index: 10;
@@ -92,28 +92,28 @@ a {
   text-align: center;
   top: 62px; }
 
-/* line 98, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+/* line 97, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
 .mobile-menu a {
   text-decoration: none;
   margin: 0px;
   color: #fff;
   width: 100%; }
 
-/* line 104, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+/* line 103, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
 .mobile-menu ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
   list-style-image: none; }
 
-/* line 110, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+/* line 109, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
 .mobile-menu a li:hover {
   display: block;
   background: #444;
   padding: 15px 0 15px 0;
   border-bottom: #4a4a4a 1px solid; }
 
-/* line 117, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+/* line 116, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
 .mobile-menu ul a li {
   display: block;
   padding: 15px 0 15px 0;
@@ -124,7 +124,7 @@ a {
  > Tiles <
 -----------------------------------------
 */
-/* line 129, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+/* line 128, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
 .tile-container {
   max-width: 100%;
   margin-left: auto;
@@ -134,12 +134,12 @@ a {
   position: relative;
   clear: both;
   margin-top: -45px; }
-  /* line 139, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+  /* line 138, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
   .tile-container:after {
     content: " ";
     display: block;
     clear: both; }
-  /* line 144, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+  /* line 143, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
   .tile-container .title {
     color: #fff;
     width: 64%;
@@ -147,7 +147,7 @@ a {
     padding: 15px 15px 15px 45px;
     margin: 0 -20% 20px;
     text-align: right; }
-  /* line 152, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+  /* line 151, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
   .tile-container .tile {
     position: relative;
     padding: 5px;
@@ -156,68 +156,68 @@ a {
     border: 1px solid rgba(255, 255, 255, 0.2);
     margin-bottom: 22px;
     transition: all 0.6s ease; }
-    /* line 160, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+    /* line 159, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
     .tile-container .tile.small {
       width: 30.69995%;
       float: left;
       margin-left: 1.31669%;
       margin-right: 1.31669%; }
       @media (max-width: 768px) {
-        /* line 160, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+        /* line 159, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
         .tile-container .tile.small {
           width: 47.31669%; } }
       @media (max-width: 480px) {
-        /* line 160, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+        /* line 159, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
         .tile-container .tile.small {
           width: 100%; } }
-    /* line 172, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+    /* line 171, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
     .tile-container .tile.medium {
       width: 47.36662%;
       float: left;
       margin-left: 1.31669%;
       margin-right: 1.31669%; }
       @media (max-width: 768px) {
-        /* line 172, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+        /* line 171, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
         .tile-container .tile.medium {
           width: 47.31669%; } }
       @media (max-width: 480px) {
-        /* line 172, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+        /* line 171, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
         .tile-container .tile.medium {
           width: 100%; } }
-    /* line 184, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+    /* line 183, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
     .tile-container .tile.large {
       width: 97.36662%;
       float: left;
       margin-left: 1.31669%;
       margin-right: 1.31669%; }
-    /* line 190, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+    /* line 189, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
     .tile-container .tile:after {
       border-bottom: 0px solid #fff;
       transition: all 0.6s ease; }
-    /* line 194, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+    /* line 193, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
     .tile-container .tile:focus {
       outline: none; }
-  /* line 199, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+  /* line 198, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
   .tile-container .tile-inner {
     position: relative;
     overflow: hidden; }
-    /* line 202, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+    /* line 201, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
     .tile-container .tile-inner:hover ~ section .shine {
       opacity: .9; }
-    /* line 205, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+    /* line 204, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
     .tile-container .tile-inner:hover ~ section .shine.top {
       background-position: 100% 50%; }
-    /* line 208, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+    /* line 207, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
     .tile-container .tile-inner:hover ~ section .shine.bottom {
       background-position: 0 50%; }
-  /* line 213, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+  /* line 212, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
   .tile-container .tile-link {
     display: block;
     text-decoration: none; }
-    /* line 216, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+    /* line 215, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
     .tile-container .tile-link:hover {
       cursor: pointer; }
-  /* line 221, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+  /* line 220, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
   .tile-container .tile-bg {
     position: absolute;
     top: 0;
@@ -226,12 +226,12 @@ a {
     left: 0;
     background-color: #eee;
     transition: all 0.6s ease; }
-  /* line 231, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+  /* line 230, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
   .tile-container .tile-media {
     padding-bottom: 56.25%;
     position: relative;
     overflow: hidden; }
-    /* line 235, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+    /* line 234, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
     .tile-container .tile-media .tile-media-bg {
       position: absolute;
       left: 0;
@@ -240,18 +240,18 @@ a {
       border: 0;
       transition: -webkit-transform 1s ease, margin 1s ease;
       transition: transform 0.6s ease, margin 1s ease; }
-  /* line 246, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+  /* line 245, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
   .tile-container .tile-content {
     padding-bottom: 150px;
     position: relative; }
-    /* line 249, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+    /* line 248, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
     .tile-container .tile-content .tile-content-inner {
       position: absolute;
       left: 1.5vw;
       right: 1.5vw;
       top: 1.1vw;
       bottom: 1vw; }
-      /* line 255, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+      /* line 254, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
       .tile-container .tile-content .tile-content-inner .tile-title {
         color: #222;
         font-size: 1.97368vw;
@@ -262,10 +262,10 @@ a {
         font-weight: 400;
         transition: all 0.4s ease; }
         @media (max-width: 768px) {
-          /* line 255, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+          /* line 254, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
           .tile-container .tile-content .tile-content-inner .tile-title {
             font-size: 28px; } }
-  /* line 270, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+  /* line 269, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
   .tile-container .shine {
     position: absolute;
     width: 140%;
@@ -279,11 +279,11 @@ a {
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     transition: background-position 0.6s ease-out, opacity 0.6s ease-out; }
-    /* line 283, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+    /* line 282, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
     .tile-container .shine.top {
       top: -3.7037%;
       background-position: 0 50%; }
-    /* line 287, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+    /* line 286, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
     .tile-container .shine.bottom {
       bottom: -3.7037%;
       background-position: 100% 50%; }
@@ -293,7 +293,7 @@ a {
  > Panels <
 -----------------------------------------
 */
-/* line 300, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+/* line 299, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
 .panel {
   top: 0;
   right: 0;
@@ -309,7 +309,7 @@ a {
   height: 0;
   outline: 0;
   transition: all 0.5s ease; }
-  /* line 315, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+  /* line 314, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
   .panel .panel-inner {
     display: table;
     height: 100vh;
@@ -320,7 +320,7 @@ a {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     width: 100%; }
-    /* line 325, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+    /* line 324, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
     .panel .panel-inner .panel-header {
       position: absolute;
       top: 0;
@@ -328,7 +328,7 @@ a {
       height: 60px;
       line-height: 1rem;
       overflow: hidden; }
-      /* line 332, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+      /* line 331, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
       .panel .panel-inner .panel-header .panel-close {
         color: #fff;
         display: block;
@@ -338,22 +338,22 @@ a {
         right: calc(4% - 22px);
         padding: 0 14px;
         top: 0; }
-        /* line 341, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+        /* line 340, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
         .panel .panel-inner .panel-header .panel-close .skycon--close {
           font-size: .8em;
           color: #fff; }
-          /* line 344, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+          /* line 343, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
           .panel .panel-inner .panel-header .panel-close .skycon--close:before {
             margin: -5px 10px 0 0; }
-        /* line 348, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+        /* line 347, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
         .panel .panel-inner .panel-header .panel-close:hover {
           text-decoration: none;
           cursor: pointer;
           color: #ccc; }
-          /* line 352, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+          /* line 351, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
           .panel .panel-inner .panel-header .panel-close:hover .skycon--close {
             color: #ccc; }
-    /* line 358, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+    /* line 357, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
     .panel .panel-inner .panel-content {
       display: table-cell;
       overflow: visible;
@@ -363,16 +363,16 @@ a {
       padding: 60px 0;
       padding-left: 6.25%;
       padding-right: 6.25%; }
-      /* line 367, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+      /* line 366, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
       .panel .panel-inner .panel-content .panel-media {
         width: 70%;
         float: left;
         position: relative; }
         @media (max-width: 768px) {
-          /* line 367, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+          /* line 366, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
           .panel .panel-inner .panel-content .panel-media {
             width: 95%; } }
-        /* line 374, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+        /* line 373, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
         .panel .panel-inner .panel-content .panel-media iframe, .panel .panel-inner .panel-content .panel-media img {
           width: 100%;
           display: block;
@@ -384,7 +384,7 @@ a {
           border: 1px solid rgba(255, 255, 255, 0.2);
           margin-bottom: 5px;
           transition: all 0.6s ease; }
-        /* line 386, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+        /* line 385, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
         .panel .panel-inner .panel-content .panel-media .shine {
           position: absolute;
           width: 140%;
@@ -398,34 +398,34 @@ a {
           -ms-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
           transition: background-position 1s ease-out 0.1s, opacity 1s ease-out 0.1s; }
-          /* line 399, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+          /* line 398, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
           .panel .panel-inner .panel-content .panel-media .shine.top {
             top: -3.7037%;
             background-position: 0 50%; }
-          /* line 403, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+          /* line 402, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
           .panel .panel-inner .panel-content .panel-media .shine.bottom {
             bottom: -3.7037%;
             background-position: 100% 50%; }
-      /* line 409, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+      /* line 408, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
       .panel .panel-inner .panel-content .panel-info {
         color: #fff;
         width: 27.14286%;
         float: left;
         margin-left: 2%; }
         @media (max-width: 768px) {
-          /* line 409, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+          /* line 408, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
           .panel .panel-inner .panel-content .panel-info {
             width: 95%;
             margin-top: 10px; } }
-        /* line 418, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+        /* line 417, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
         .panel .panel-inner .panel-content .panel-info .panel-title {
           margin-top: 0; }
-        /* line 421, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+        /* line 420, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
         .panel .panel-inner .panel-content .panel-info .panel-des .btn {
           margin: 0 auto;
           display: table;
           color: #fff; }
-  /* line 429, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+  /* line 428, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
   .panel.open {
     height: 100vh;
     overflow: auto;
@@ -436,17 +436,17 @@ a {
  > Zoom & Shine Effect <
 -----------------------------------------
 */
-/* line 442, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+/* line 441, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
 .tile-link:hover .tile-media-bg {
   -webkit-transform: scale(1.05, 1.05);
   transform: scale(1.05, 1.05); }
 
-/* line 448, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+/* line 447, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
 .tile-link:hover .tile-title {
   color: #fff !important;
   transition: all 0.4s ease; }
 
-/* line 452, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+/* line 451, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
 .tile-link:hover .tile-bg {
   background-color: #5090b8;
   transition: all 0.6s ease; }
@@ -459,16 +459,16 @@ a {
   100% {
     opacity: 0; } }
 
-/* line 471, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+/* line 470, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
 .panel.open .panel-media section .shine {
   -webkit-animation: fadeInOut 1.2s linear 0.1s;
   animation: fadeInOut 1.2s linear 0.1s; }
 
-/* line 475, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+/* line 474, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
 .panel.open .panel-media section .shine.top {
   background-position: 100% 50% !important; }
 
-/* line 478, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
+/* line 477, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/base.scss */
 .panel.open .panel-media section .shine.bottom {
   background-position: 0 50% !important; }
 

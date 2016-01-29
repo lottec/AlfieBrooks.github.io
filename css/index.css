@@ -8,7 +8,7 @@
  > Index Page <
 -----------------------------------------
 */
-/* line 9, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/index.scss */
+/* line 9, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
 .polaris-wrapper {
   position: relative;
   box-sizing: border-box;
@@ -18,18 +18,18 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 19, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/index.scss */
+/* line 19, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
 .polaris-wrapper * {
   box-sizing: inherit; }
 
-/* line 23, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/index.scss */
+/* line 23, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
 .hero-container {
   position: relative;
   padding-bottom: 32.5%;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
-  /* line 29, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/index.scss */
+  /* line 29, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
   .hero-container .hero-wrapper {
     height: 100%;
     left: 0;
@@ -37,24 +37,24 @@
     top: 0;
     width: 100%;
     overflow: hidden; }
-    /* line 36, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/index.scss */
+    /* line 36, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
     .hero-container .hero-wrapper .hero-vid {
       margin-top: -185px; }
       @media (max-width: 768px) {
-        /* line 36, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/index.scss */
+        /* line 36, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
         .hero-container .hero-wrapper .hero-vid {
           display: none !important; } }
-    /* line 43, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/index.scss */
+    /* line 43, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
     .hero-container .hero-wrapper .hero-banner {
       margin-top: -25px;
       width: 100%;
       display: none; }
       @media (max-width: 768px) {
-        /* line 43, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/index.scss */
+        /* line 43, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
         .hero-container .hero-wrapper .hero-banner {
           display: block !important; } }
 
-/* line 57, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/index.scss */
+/* line 57, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
 .tile-container .tile.small-long {
   width: 64%;
   float: left;
@@ -65,23 +65,63 @@
   background-color: #a51d4d;
   text-align: right;
   color: #fff; }
-  /* line 67, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/index.scss */
+  /* line 67, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
   .tile-container .tile.small-long .tile-content {
     padding-bottom: 0; }
-  /* line 70, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/index.scss */
+  /* line 70, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
   .tile-container .tile.small-long p {
     padding-bottom: 10px; }
-  /* line 73, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/index.scss */
+  /* line 73, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
   .tile-container .tile.small-long a {
     padding-bottom: 12px;
     color: #fff;
     text-decoration: none; }
-    /* line 77, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/index.scss */
+    /* line 77, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
     .tile-container .tile.small-long a:hover {
       text-decoration: underline; }
 
-/* line 84, /Users/abr65/Documents/Development/AlfieBrooks.github.io/css/index.scss */
+/* line 84, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
 .tile-container.text {
   margin-top: 30px; }
+
+/* line 88, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+.tile-container.middle {
+  padding: 0;
+  margin-top: -30px; }
+  /* line 91, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+  .tile-container.middle .quote {
+    border: none;
+    text-align: center;
+    margin: 25px auto 50px; }
+    @media (max-width: 768px) {
+      /* line 91, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+      .tile-container.middle .quote {
+        width: 80%; } }
+    /* line 98, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+    .tile-container.middle .quote .quote_marks {
+      font-size: 70px;
+      color: #ed0677; }
+      @media (max-width: 768px) {
+        /* line 98, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+        .tile-container.middle .quote .quote_marks {
+          font-size: 50px;
+          line-height: 30px; } }
+    /* line 106, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+    .tile-container.middle .quote h2 {
+      display: inline; }
+      @media (max-width: 992px) {
+        /* line 106, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+        .tile-container.middle .quote h2 {
+          font-size: 32px;
+          line-height: 45px; } }
+  /* line 114, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+  .tile-container.middle .text {
+    background-color: #0076be;
+    padding: 35px 12.5%;
+    margin-top: 40px;
+    color: #fff; }
+    /* line 119, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+    .tile-container.middle .text p {
+      margin: 0; }
 
 /*# sourceMappingURL=index.css.map */

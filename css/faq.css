@@ -8,12 +8,20 @@
  > Profile Page <
 -----------------------------------------
 */
+/* line 9, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
+body {
+  position: relative; }
+
+/* line 13, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
 .rc-anchor-normal {
   width: 100% !important; }
 
 @media (max-width: 768px) {
+  /* line 19, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
   .polaris-wrapper.faq .title {
     width: 85%; } }
+
+/* line 24, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
 .polaris-wrapper.faq .tile-container.top {
   padding-left: 0;
   padding-right: 0;
@@ -21,44 +29,56 @@
   float: left;
   width: 60%; }
   @media (max-width: 768px) {
+    /* line 24, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top {
       padding: 0;
       margin-top: 0; } }
+  /* line 34, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
   .polaris-wrapper.faq .tile-container.top .tile.small.apply {
     width: 25%;
     margin-left: 8%;
     margin-right: 0; }
     @media (max-width: 768px) {
+      /* line 34, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
       .polaris-wrapper.faq .tile-container.top .tile.small.apply {
         width: 50%;
         margin: 0 auto;
         float: none;
         display: table; } }
     @media (max-width: 480px) {
+      /* line 34, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
       .polaris-wrapper.faq .tile-container.top .tile.small.apply {
         width: 65%; } }
+    /* line 47, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .tile.small.apply .tile-media {
       padding-bottom: 0; }
+      /* line 49, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
       .polaris-wrapper.faq .tile-container.top .tile.small.apply .tile-media span {
         font-size: 100px;
         margin: 40px auto 0;
         color: #fff;
         display: table;
-        transition: all .6s ease; }
+        transition: all 0.6s ease; }
+    /* line 57, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .tile.small.apply .tile-content {
       padding-bottom: 82px; }
+      /* line 59, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
       .polaris-wrapper.faq .tile-container.top .tile.small.apply .tile-content .tile-title {
         color: #fff;
         text-align: center;
-        transition: all .6s ease; }
+        transition: all 0.6s ease; }
+    /* line 65, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .tile.small.apply .tile-bg {
       background-color: #2b93d1;
-      transition: all .6s ease; }
+      transition: all 0.6s ease; }
+    /* line 70, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .tile.small.apply .tile-link:hover .tile-bg {
       background-color: #1A90D8;
-      transition: all .6s ease; }
+      transition: all 0.6s ease; }
+    /* line 74, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .tile.small.apply .tile-link:hover .tile-media span {
-      transition: all .6s ease; }
+      transition: all 0.6s ease; }
+  /* line 80, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
   .polaris-wrapper.faq .tile-container.top .description.small-long {
     width: 96%;
     float: left;
@@ -69,206 +89,274 @@
     background-color: #a51d4d;
     color: #fff; }
     @media (max-width: 768px) {
+      /* line 80, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
       .polaris-wrapper.faq .tile-container.top .description.small-long {
         width: 100%;
         margin-left: 0;
         margin-bottom: 8%; } }
+    /* line 94, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .description.small-long h2 {
       margin: 5px 0 10px; }
+    /* line 97, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .description.small-long p {
       margin: 35px 0 10px;
       font-size: 18px;
       line-height: 22px; }
+  /* line 105, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
   .polaris-wrapper.faq .tile-container.top .panel h3 {
     margin-top: 0;
     margin-bottom: 75px;
     color: #fff;
     text-align: center; }
+  /* line 111, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
   .polaris-wrapper.faq .tile-container.top .panel form {
     width: 100%;
     color: #fff; }
     @media (min-width: 768px) and (max-width: 913px) {
+      /* line 111, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
       .polaris-wrapper.faq .tile-container.top .panel form {
         width: 75%;
         display: table;
         margin: 0 auto; } }
+    /* line 119, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .panel form .form-left {
       width: 50%;
       float: left; }
       @media (max-width: 913px) {
+        /* line 119, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
         .polaris-wrapper.faq .tile-container.top .panel form .form-left {
           width: 100%; } }
+    /* line 126, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .panel form .form-right {
       width: 50%;
       float: right; }
       @media (max-width: 913px) {
+        /* line 126, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
         .polaris-wrapper.faq .tile-container.top .panel form .form-right {
           width: 100%; } }
+    /* line 133, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .panel form .row {
       min-height: 310px; }
+    /* line 136, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .panel form .row.form {
       min-height: 0; }
+      /* line 138, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
       .polaris-wrapper.faq .tile-container.top .panel form .row.form textarea {
         max-width: 100%;
         max-height: 250px; }
+    /* line 143, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .panel form .row.form.captcha {
       padding-left: 25%; }
       @media (max-width: 768px) {
+        /* line 143, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
         .polaris-wrapper.faq .tile-container.top .panel form .row.form.captcha {
           padding-left: 0; } }
+    /* line 149, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .panel form .row.checkbox {
       margin: 0 0 8px 0;
       float: left;
       width: 100%; }
+    /* line 154, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .panel form input[type="checkbox"] {
       float: left; }
+    /* line 157, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .panel form .row.no-label, .polaris-wrapper.faq .tile-container.top .panel form .form-submit {
       margin-left: 25%;
       margin-top: 10px; }
       @media (max-width: 768px) {
+        /* line 157, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
         .polaris-wrapper.faq .tile-container.top .panel form .row.no-label, .polaris-wrapper.faq .tile-container.top .panel form .form-submit {
           margin-left: 0; } }
+    /* line 164, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .panel form .row > label {
       width: 25%; }
       @media (max-width: 768px) {
+        /* line 164, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
         .polaris-wrapper.faq .tile-container.top .panel form .row > label {
           width: 75%;
           margin-bottom: 5px;
           text-align: left; } }
+    /* line 172, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .panel form .row > input[type="text"], .polaris-wrapper.faq .tile-container.top .panel form .row > input[type="email"], .polaris-wrapper.faq .tile-container.top .panel form .row > textarea {
       width: 400px; }
       @media (max-width: 1277px) {
+        /* line 172, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
         .polaris-wrapper.faq .tile-container.top .panel form .row > input[type="text"], .polaris-wrapper.faq .tile-container.top .panel form .row > input[type="email"], .polaris-wrapper.faq .tile-container.top .panel form .row > textarea {
           width: 70%; } }
       @media (max-width: 768px) {
+        /* line 172, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
         .polaris-wrapper.faq .tile-container.top .panel form .row > input[type="text"], .polaris-wrapper.faq .tile-container.top .panel form .row > input[type="email"], .polaris-wrapper.faq .tile-container.top .panel form .row > textarea {
           width: 100%; } }
+    /* line 181, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .panel form #other {
       width: 332px;
       margin-bottom: 20px; }
       @media (max-width: 768px) {
+        /* line 181, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
         .polaris-wrapper.faq .tile-container.top .panel form #other {
           width: 100%; } }
+    /* line 188, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .panel form .form-submit {
       margin-top: 80px;
       margin-left: calc(50% - 32px);
       width: 100px; }
       @media (max-width: 768px) {
+        /* line 188, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
         .polaris-wrapper.faq .tile-container.top .panel form .form-submit {
           margin-top: 40px; } }
+    /* line 196, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .panel form .g-recaptcha {
       transform: scale(1.325);
       transform-origin: 0 0; }
       @media (max-width: 1277px) {
+        /* line 196, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
         .polaris-wrapper.faq .tile-container.top .panel form .g-recaptcha {
           width: 304px;
           margin: 50px auto 0;
           padding-right: 20px;
           transform: scale(1);
           transform-origin: center; } }
+    /* line 211, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .panel form .italicLabel {
       font-style: italic; }
+    /* line 214, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.top .panel form .main-menu {
       position: relative;
       display: inline-block; }
+
+/* line 222, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
 .polaris-wrapper.faq .profile-container.top {
   position: fixed;
   right: 0;
   width: 30%;
   height: 100%;
   top: 0;
-  padding-top: 85px;
+  padding-top: 45px;
   margin-right: 6%;
   margin-left: 4%;
   background-color: #EEE; }
+  /* line 232, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
   .polaris-wrapper.faq .profile-container.top .profile-info-container {
     margin: 10px 0 0;
     padding: 0 20px; }
+    /* line 235, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .profile-container.top .profile-info-container .faq-question-list {
       margin: 0 20px; }
+      /* line 237, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
       .polaris-wrapper.faq .profile-container.top .profile-info-container .faq-question-list li {
         margin: 0; }
+      /* line 240, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
+      .polaris-wrapper.faq .profile-container.top .profile-info-container .faq-question-list li.active {
+        font-weight: bold; }
+
+/* line 247, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
 .polaris-wrapper.faq .tile-container.middle {
   padding: 0;
   margin-top: -30px; }
+  /* line 250, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
   .polaris-wrapper.faq .tile-container.middle .quote {
     border: none;
     text-align: center;
     margin: 100px auto 70px; }
     @media (max-width: 768px) {
+      /* line 250, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
       .polaris-wrapper.faq .tile-container.middle .quote {
         width: 80%; } }
+    /* line 257, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.middle .quote .quote_marks {
       font-size: 70px;
       color: #ed0677; }
       @media (max-width: 768px) {
+        /* line 257, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
         .polaris-wrapper.faq .tile-container.middle .quote .quote_marks {
           font-size: 50px;
           line-height: 30px; } }
+    /* line 265, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.middle .quote h2 {
       display: inline; }
       @media (max-width: 992px) {
+        /* line 265, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
         .polaris-wrapper.faq .tile-container.middle .quote h2 {
           font-size: 32px;
           line-height: 45px; } }
+  /* line 273, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
   .polaris-wrapper.faq .tile-container.middle .text {
     background-color: #2b93d1;
     padding: 35px 12.5%;
     margin-top: 40px;
     color: #fff; }
+    /* line 278, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.middle .text p {
       margin: 0; }
+
+/* line 283, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
 .polaris-wrapper.faq .tile-container.bottom {
   margin-top: 40px;
   width: 60%;
   float: left;
   padding: 0;
   clear: none; }
+  /* line 289, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
   .polaris-wrapper.faq .tile-container.bottom .title {
     width: 75%; }
+  /* line 292, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
   .polaris-wrapper.faq .tile-container.bottom .row {
     margin: 25px 0;
     width: 100%;
     float: left; }
+    /* line 296, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.bottom .row .description.small-long {
       float: left;
       width: 100%;
       padding: 0 20px;
       margin-bottom: 22px; }
       @media (max-width: 768px) {
+        /* line 296, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
         .polaris-wrapper.faq .tile-container.bottom .row .description.small-long {
           width: 75%;
           margin: 0 auto 22px;
           display: table;
           float: none; } }
       @media (max-width: 480px) {
+        /* line 296, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
         .polaris-wrapper.faq .tile-container.bottom .row .description.small-long {
           width: 100%; } }
+      /* line 310, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
       .polaris-wrapper.faq .tile-container.bottom .row .description.small-long h2 {
         margin-top: 0; }
+    /* line 314, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.bottom .row.one h2 {
       color: #a6ce39; }
+    /* line 317, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.bottom .row.one hr {
       border-color: #a6ce39; }
+    /* line 320, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.bottom .row.two h2 {
       color: #ed0677; }
+    /* line 323, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.bottom .row.two hr {
       border-color: #ed0677; }
+    /* line 326, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.bottom .row.three h2 {
       color: #a51d4d; }
+    /* line 329, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.bottom .row.three hr {
       border-color: #a51d4d; }
+    /* line 332, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.bottom .row.four h2 {
       color: #2b93d1; }
+    /* line 335, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.bottom .row.four hr {
       border-color: #2b93d1; }
     @media (max-width: 768px) {
+      /* line 338, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
       .polaris-wrapper.faq .tile-container.bottom .row .tile {
         width: 75%;
         padding: 0;
         margin: 0 auto 22px;
         display: table;
         float: none; } }
+    /* line 347, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/faq.scss */
     .polaris-wrapper.faq .tile-container.bottom .row .tile .tile-link:hover {
       cursor: default; }
 

@@ -6,6 +6,10 @@
 -----------------------------------------
 */
 
+body {
+    position: relative;
+}
+
 .rc-anchor-normal{
     width: 100% !important;
 }
@@ -221,7 +225,7 @@
     	width: 30%;
         height: 100%;
         top: 0;
-        padding-top: 85px;
+        padding-top: 45px;
 		margin-right: 6%;
 		margin-left: 4%;
 		background-color: #EEE;
@@ -232,6 +236,9 @@
                 margin: 0 20px;
                 li {
                     margin: 0;
+                }
+                li.active {
+                    font-weight: bold;
                 }
             }
 		}
