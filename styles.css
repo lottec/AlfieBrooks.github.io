@@ -614,35 +614,38 @@ a {
   .tile-container.middle .quote {
     border: none;
     text-align: center;
-    margin: 25px auto 50px; }
+    margin: 25px auto 50px;
+    padding: 0 15%; }
     @media (max-width: 768px) {
       /* line 91, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
       .tile-container.middle .quote {
         width: 80%; } }
-    /* line 98, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+    /* line 99, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
     .tile-container.middle .quote .quote_marks {
-      font-size: 70px;
+      font-size: 50px;
       color: #ed0677; }
       @media (max-width: 768px) {
-        /* line 98, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+        /* line 99, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
         .tile-container.middle .quote .quote_marks {
           font-size: 50px;
           line-height: 30px; } }
-    /* line 106, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+    /* line 107, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
     .tile-container.middle .quote h2 {
-      display: inline; }
+      display: inline;
+      font-size: 30px;
+      line-height: 40px; }
       @media (max-width: 992px) {
-        /* line 106, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+        /* line 107, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
         .tile-container.middle .quote h2 {
           font-size: 32px;
           line-height: 45px; } }
-  /* line 114, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+  /* line 117, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
   .tile-container.middle .text {
     background-color: #0076be;
     padding: 35px 12.5%;
     margin-top: 40px;
     color: #fff; }
-    /* line 119, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+    /* line 122, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
     .tile-container.middle .text p {
       margin: 0; }
 
