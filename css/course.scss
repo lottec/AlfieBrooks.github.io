@@ -1,6 +1,12 @@
+@import 'mixin.scss';
+
 .accordion {
     float: left;
     width: 60%;
+    @include tablet {
+        width: 100%;
+        margin-bottom: 24px;
+    }
     h3 {
         line-height: 36px;
         color: #fff;
@@ -52,6 +58,10 @@
 .tile-container.top .tile-container {
     padding-right: 0;
     margin-right: 4%;
+    @include tablet {
+        padding-right: 12.5%;
+        margin-right: auto;
+    }
     .tile.small.form {
         float: right;
         margin-top: 24px;

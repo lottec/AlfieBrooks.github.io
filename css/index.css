@@ -94,36 +94,32 @@
     text-align: center;
     margin: 25px auto 50px;
     padding: 0 15%; }
-    @media (max-width: 768px) {
-      /* line 91, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
-      .tile-container.middle .quote {
-        width: 80%; } }
-    /* line 99, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+    /* line 96, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
     .tile-container.middle .quote .quote_marks {
       font-size: 50px;
       color: #ed0677; }
       @media (max-width: 768px) {
-        /* line 99, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+        /* line 96, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
         .tile-container.middle .quote .quote_marks {
           font-size: 50px;
           line-height: 30px; } }
-    /* line 107, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+    /* line 104, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
     .tile-container.middle .quote h2 {
       display: inline;
       font-size: 30px;
       line-height: 40px; }
       @media (max-width: 992px) {
-        /* line 107, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+        /* line 104, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
         .tile-container.middle .quote h2 {
           font-size: 32px;
           line-height: 45px; } }
-  /* line 117, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+  /* line 114, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
   .tile-container.middle .text {
     background-color: #0076be;
     padding: 35px 12.5%;
     margin-top: 40px;
     color: #fff; }
-    /* line 122, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+    /* line 119, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
     .tile-container.middle .text p {
       margin: 0; }
 

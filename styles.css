@@ -616,36 +616,32 @@ a {
     text-align: center;
     margin: 25px auto 50px;
     padding: 0 15%; }
-    @media (max-width: 768px) {
-      /* line 91, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
-      .tile-container.middle .quote {
-        width: 80%; } }
-    /* line 99, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+    /* line 96, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
     .tile-container.middle .quote .quote_marks {
       font-size: 50px;
       color: #ed0677; }
       @media (max-width: 768px) {
-        /* line 99, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+        /* line 96, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
         .tile-container.middle .quote .quote_marks {
           font-size: 50px;
           line-height: 30px; } }
-    /* line 107, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+    /* line 104, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
     .tile-container.middle .quote h2 {
       display: inline;
       font-size: 30px;
       line-height: 40px; }
       @media (max-width: 992px) {
-        /* line 107, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+        /* line 104, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
         .tile-container.middle .quote h2 {
           font-size: 32px;
           line-height: 45px; } }
-  /* line 117, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+  /* line 114, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
   .tile-container.middle .text {
     background-color: #0076be;
     padding: 35px 12.5%;
     margin-top: 40px;
     color: #fff; }
-    /* line 122, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
+    /* line 119, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/index.scss */
     .tile-container.middle .text p {
       margin: 0; }
 
@@ -1027,37 +1023,47 @@ a {
   border-left: 4px solid #a51d4d;
   padding-left: 5px; }
 
-/* line 1, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
+/*
+-----------------------------------------
+ > Mixins <
+-----------------------------------------
+*/
+/* line 3, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
 .accordion {
   float: left;
   width: 60%; }
-  /* line 4, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
+  @media (max-width: 768px) {
+    /* line 3, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
+    .accordion {
+      width: 100%;
+      margin-bottom: 24px; } }
+  /* line 10, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
   .accordion h3 {
     line-height: 36px;
     color: #fff;
     transform: rotate(0deg);
     transition: transform 0.6s ease; }
-    /* line 9, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
+    /* line 15, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
     .accordion h3:focus {
       outline: none; }
-    /* line 12, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
+    /* line 18, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
     .accordion h3 .fa {
       float: right;
       margin-top: 12px;
       margin-right: 12px;
       transform: rotate(0deg);
       transition: transform 0.6s ease; }
-  /* line 20, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
+  /* line 26, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
   .accordion .ui-accordion-content {
     background: #eee;
     padding: 1px 10px; }
 
-/* line 26, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
+/* line 32, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
   background-color: #1A90D8 !important;
   border: 1px solid #d3d3d3; }
 
-/* line 31, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
+/* line 37, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
 .ui-accordion .ui-accordion-header {
   display: block;
   cursor: pointer;
@@ -1068,30 +1074,35 @@ a {
   /* support: IE7; */
   font-size: 100%; }
 
-/* line 42, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
+/* line 48, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
 .accordion h3.ui-state-active .fa {
   transform: rotate(180deg);
   transition: transform 0.6s ease; }
 
-/* line 47, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
+/* line 53, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
 .sky-form input[type="text"], .sky-form textarea {
   margin: 5px 0;
   width: 100%; }
 
-/* line 52, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
+/* line 58, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
 .tile-container.top .tile-container {
   padding-right: 0;
   margin-right: 4%; }
-  /* line 55, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
+  @media (max-width: 768px) {
+    /* line 58, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
+    .tile-container.top .tile-container {
+      padding-right: 12.5%;
+      margin-right: auto; } }
+  /* line 65, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
   .tile-container.top .tile-container .tile.small.form {
     float: right;
     margin-top: 24px;
     margin-right: 0;
     padding: 10px; }
-    /* line 60, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
+    /* line 70, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
     .tile-container.top .tile-container .tile.small.form form {
       margin-bottom: 0; }
-    /* line 63, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
+    /* line 73, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
     .tile-container.top .tile-container .tile.small.form .btn-default {
       display: block;
       color: #fff;
@@ -1100,7 +1111,7 @@ a {
       border: none;
       margin: 10px auto;
       padding: 10px 30px; }
-      /* line 71, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
+      /* line 81, /Users/abr65/Documents/Development/Academy/AlfieBrooks.github.io/css/course.scss */
       .tile-container.top .tile-container .tile.small.form .btn-default:hover {
         cursor: pointer;
         background: #34AAF2; }
