@@ -4,13 +4,17 @@
     h3 {
         line-height: 36px;
         color: #fff;
+        transform: rotate(0deg);
+        transition: transform .6s ease;
         &:focus {
             outline: none;
         }
-        i {
+        .fa {
             float: right;
             margin-top: 12px;
             margin-right: 12px;
+            transform: rotate(0deg);
+            transition: transform .6s ease;
         }
     }
     .ui-accordion-content {
@@ -33,6 +37,11 @@
     min-height: 0;
     /* support: IE7; */
     font-size: 100%;
+}
+
+.accordion h3.ui-state-active .fa {
+    transform: rotate(180deg);
+    transition: transform .6s ease;
 }
 
 .sky-form input[type="text"], .sky-form textarea {

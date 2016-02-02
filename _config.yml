@@ -1,10 +1,10 @@
 # Site settings
 title: BSkyB
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://developers.sky.com" # the base hostname & protocol for your site
+url: "http://womenintech.sky.com" # the base hostname & protocol for your site
 
 # Build settings
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
