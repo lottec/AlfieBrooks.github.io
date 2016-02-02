@@ -3,7 +3,7 @@
         <img src="/images/assets/skyDevSpectrum.png" height="50" class="dev-logo-image" />
     </a>
     <ul id="main-menu" class="tabs main-menu" role="tablist">
-        <li id="Home" class="tab selected" role="tab">
+        <li id="Home" class="tab" role="tab">
             <a href="/" class="ellipsis internal-link"><span>Home</span></a>
         </li>
         <li id="Courses" class="tab" role="tab">
@@ -17,10 +17,9 @@
         </li>
     </ul>
 
-<!--
     <div class="mobile-menu">
         <ul>
-            <li id="Home" class="tab selected" role="tab">
+            <li id="Home" class="tab" role="tab">
                 <a href="/" class="ellipsis internal-link"><span>Home</span></a>
             </li>
             <li id="Courses" class="tab" role="tab">
@@ -31,14 +30,28 @@
             </li>
         </ul>
     </div>
--->
 
     <button class="hamburger"><span class="mega-octicon octicon-three-bars"></span></button>
 </section>
 
-<!--
 <script type="text/javascript">
     $(".hamburger").click(function () {
         $(".mobile-menu").slideToggle("slow", function () {});
     });
-</script>-->
+    // Reall hacky highlighter for selected tab
+    $(document).ready(function () {
+      var urlArray = window.location.pathname.split("/");
+      if (urlArray[urlArray.length - 1] === "") urlArray.pop();
+      var urlArrayLength = urlArray.length;
+      $(".selected").removeClass("selected");
+      if (urlArray.length === 0) {
+        $("#Home").addClass("selected");
+      }
+      else {
+        $("a[href='/"+urlArray[urlArrayLength - 1]+"']").parent("li").addClass("selected");
+        if ($(".selected").length === 0) {
+          if (urlArray[urlArrayLength - 2] === "courses") $("#Courses").addClass("selected");
+        }
+      }
+    });
+</script>
